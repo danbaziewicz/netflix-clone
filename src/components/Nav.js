@@ -9,7 +9,6 @@ function Nav() {
         setShow (window.scrollY > 100);
       });
     }, []);
-    
 
   return (
       <div className={`nav-container ${show && "nav-container-black"}`}>
